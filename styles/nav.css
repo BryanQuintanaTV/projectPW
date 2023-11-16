@@ -1,0 +1,59 @@
+/* header.css    stylesheet for the header
+   components/header.html */
+@font-face {
+    font-family: "DM Sans";
+    src: url(../assets/fonts/DMSans-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Añade relleno según tus preferencias */
+    color: white; /* Cambia el color de texto según tus preferencias */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5D5A88; /* Cambia el color del enlace de la lista según tus preferencias */
+}
+
+.boton {
+
+    background-color: #5D5A88;
+    border-radius: 30px; 
+    color: white;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 18px;
+    word-wrap: break-word;
+
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    
+}
+
+.boton a {
+    text-decoration: none;
+    color: white; /* Cambia el color del enlace del botón según tus preferencias */
+
+}

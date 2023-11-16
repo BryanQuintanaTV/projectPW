@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    min-height: 100vh; /* Use vh (viewport height) instead of % for better compatibility */
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "section1 section2"
+        "footer footer";
+    grid-template-rows: auto 1fr auto; /* Define rows explicitly */
+    gap: 8px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.section1 {
+    grid-area: section1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 {
+    grid-area: section2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.footer {
+    grid-area: footer;
+    position: sticky;
+    bottom: 0;
+}

@@ -1,0 +1,64 @@
+/* Estilo para el footer */
+footer {
+    background-color: #423f5eee;
+    /* background: linear-gradient(to bottom, rgba(126, 112, 142, 0), #7E708E); */
+    color: #8E8CAE;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo para el contenedor principal */
+.content-Flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el logotipo en el footer */
+.content-Flex img {
+    width: 120px;
+    /* Ajusta el ancho según tus necesidades */
+    height: auto;
+    margin-left: 10px;
+    /* Mantiene la proporción de aspecto */
+}
+
+/* Estilo para las listas de enlaces en el footer */
+.content-Flex ul {
+    list-style: none;
+    /* Elimina los marcadores de lista */
+    padding: 0;
+}
+
+.content-Flex ul li {
+    display: inline;
+    margin-right: 15px;
+    /* Espaciado entre elementos de la lista */
+}
+
+.content-Flex ul li a {
+    text-decoration: none;
+    /* Quita el subrayado de los enlaces */
+    color: #FFFFFF;
+    /* Color del texto de enlace */
+}
+
+/* Estilo para la línea divisoria */
+hr {
+    border: 1px solid #555;
+    /* Estilo de la línea divisoria */
+    margin: 20px 0;
+    /* Espaciado antes y después de la línea */
+}
+
+/* Estilo para el texto de copyright */
+footer p {
+    font-size: 14px;
+    /* Tamaño de fuente */
+}
+
+/* Estilo para el año actual en el span */
+#currentYear {
+    font-weight: bold;
+    /* Texto en negrita */
+}

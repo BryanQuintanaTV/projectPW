@@ -1,0 +1,18 @@
+/* Reset default styles for input */
+.inputOne {
+    border: none;
+    outline: none;
+    padding: 8px; /* Adjust the padding as needed */
+    margin: 0; /* Adjust the margin as needed */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-family: inherit; /* Use the same font as the rest of the document */
+}
+
+/* Add your own styles for the custom input */
+.inputOne {
+    border: 2px solid #656ED3; 
+    border-radius: 50px; 
+    background-color: #f2f2f2; 
+    color: #333; 
+    width: 15rem;
+}
